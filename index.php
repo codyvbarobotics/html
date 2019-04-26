@@ -18,7 +18,7 @@ exec("sudo python3 /var/www/arm/arm-motion.py /var/www/arm/motions.txt");
     
  <center>
   <P>
-   Power On LED Strip</P>
+   roboto on</P>
 <form method="post">
 <button class="btn" name="LightON">Light ON</button> <P>
  <button class="btn" name="LightOFF">Light OFF</button><br><br>

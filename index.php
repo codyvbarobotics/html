@@ -3,7 +3,7 @@
 <?php
 if (isset($_POST['LightON']))
 {
-exec("sudo python /var/www/LED/led_on.py");
+exec("sudo python /home/pi/final-project/robot.py");
 }
 if (isset($_POST['LightOFF']))
 {

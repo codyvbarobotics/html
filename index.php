@@ -7,11 +7,11 @@ exec("sudo python /home/pi/final-project/motorleft.py");
 }
 if (isset($_POST['LightOFF']))
 {
-exec("sudo python /var/www/LED/led_off.py");
+exec("sudo python /home/pi/final-project/motorright.py");
 }
  if (isset($_POST['RobotDemo']))
 {
-exec("sudo python3 /var/www/arm/arm-motion.py /var/www/arm/motions.txt");
+exec("sudo python /home/pi/final-project/motorforward.py")
 }
 ?>
  <P>
@@ -24,7 +24,7 @@ exec("sudo python3 /var/www/arm/arm-motion.py /var/www/arm/motions.txt");
  <button class="btn" name="LightOFF">robot right</button><br><br>
  <P>
     <P>
-     <button class="btn" name="RobotDemo">Robot Arm Demo</button>
+     <button class="btn" name="RobotDemo">Robot forward</button>
  </center>
  
     <br><br><br><br>

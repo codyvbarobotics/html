@@ -20,8 +20,8 @@ exec("sudo python3 /var/www/arm/arm-motion.py /var/www/arm/motions.txt");
   <P>
    roboto on</P>
 <form method="post">
-<button class="btn" name="LightON">Light ON</button> <P>
- <button class="btn" name="LightOFF">Light OFF</button><br><br>
+<button class="btn" name="LightON">robot left</button> <P>
+ <button class="btn" name="LightOFF">robot right</button><br><br>
  <P>
     <P>
      <button class="btn" name="RobotDemo">Robot Arm Demo</button>

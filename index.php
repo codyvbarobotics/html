@@ -11,7 +11,7 @@ exec("sudo python /home/pi/final-project/motorright.py");
 }
  if (isset($_POST['RobotDemo']))
 {
-exec("sudo python /home/pi/final-project/motorforward.py")
+exec("sudo python /home/pi/final-project/motorforward.py");
 }
 ?>
  <P>
